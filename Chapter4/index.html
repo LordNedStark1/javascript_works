@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Methods</title>
+</head>
+<body>
+My Object
+<script>
+    var player = {
+        x: 100,
+        y: 200,
+        energy : 10,
+        weapon: ['axe', 'gun'],
+        addWeapon(newWeapon) {
+            this.weapon.push(newWeapon)
+        },
+        increaseEnergy: function (e) {
+            this.energy += e
+        }
+    }
+    player.addWeapon("laser beam")
+    player.addWeapon("knife")
+    player.increaseEnergy(10)
+    console.log(player.energy)
+    console.log(player.weapon)
+    console.log(player)
+</script>
+
+</body>
+</html>
