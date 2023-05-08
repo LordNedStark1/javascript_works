@@ -1,4 +1,4 @@
-import {Person} from "./person.j";
+import {Person} from "./person.js";
 
 let person = Person("Mark")
 
