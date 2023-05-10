@@ -21,6 +21,7 @@ class Rectangle extends Shape{
 }
 
 let rectangle = new Rectangle("Rectangle", 5, 5)
+
 console.log(rectangle.getName())
 console.log(rectangle.getArea)
 console.log(rectangle.isSquare())

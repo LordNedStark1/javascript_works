@@ -1,5 +1,5 @@
-import {Person} from "./person.js";
+import Person from "./person.js";
 
-let person = Person("Mark")
+let person = new Person("Mark")
 
-console.log(person.getName())
+console.log(person.name)
