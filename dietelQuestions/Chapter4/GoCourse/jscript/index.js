@@ -35,4 +35,24 @@
 // }
 // console.log(id);
 
-console.log(document.childNodes);
+// console.log(document.childNodes);
+
+// let children = document.body.children
+// let parent = document.body.parentElement
+// let sibling = document.body.previousElementSibling
+
+// console.log("the children " )
+// console.log(children);
+// console.log(parent);
+// console.log(sibling);
+
+let cls  = document.getElementsByClassName("first-div")
+let tag  = document.getElementsByTagName("p")
+let id  = document.getElementById("fiftin")
+
+let namee2 = document.createElement("a")
+let namee = document.createElement("p")
+namee.innerHtml = "Changed background botton colour"
+namee2.textContent = "change the botton colour"
+cls[0].append(namee)
+cls[0].prepend(namee2)
