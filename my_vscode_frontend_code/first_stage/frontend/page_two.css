@@ -1,0 +1,20 @@
+button:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  button:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  button:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  button:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }

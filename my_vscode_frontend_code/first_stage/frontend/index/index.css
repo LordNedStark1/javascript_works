@@ -1,0 +1,50 @@
+.button{
+    display: flex;
+    justify-content: end;
+
+}
+.first-div{
+    background-color: rgba(192, 192, 192, 0.5);
+}
+.second-div{
+    background-color: white ;
+}
+#rise{
+    margin-top: 10px;
+    font-size: 100px;
+    color: rgba(25, 128, 11, 0.7);
+}
+#idea_image{
+    width: 1340px;
+    height: 500px;
+    opacity: 1;
+    
+}
+button:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  button:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  button:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  button:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;  
+  }
+button{
+    border-radius: 5px;
+    width: 100px;
+    height: 150; 
+    padding: 5px;
+    color: rgba(27, 27, 229, 0.7);
+    background-color: rgba(36, 132, 200, 0.6);
+}
