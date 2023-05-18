@@ -8,21 +8,26 @@ body{
     padding-bottom: 210px;
 
 }
+input{
+    height: 40px;
+    width: 405px;
+    font-size: 22px;
+}
 
 .inner_container{
     display: grid;
     place-items: center;
     padding-bottom: 80px;
     border: 2px solid green;
-
+    
     height: 200px;
     width: 350px;
     border-radius: 20px;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 135px;
     padding-left: 30px;
     padding-right: 30px;
-    box-shadow: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
@@ -37,9 +42,16 @@ body{
     border-radius: 20px;
     padding: 36px;
 }
+#insp{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
 button{
     border-radius: 6px;
-    background-color: yellowgreen;
+    height: 45px;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgba(209, 241, 144, 0.5);
     color: rgb(64, 0, 255);
     
 }
@@ -51,4 +63,7 @@ button:hover{
 button:active{
     color: rgb(222, 245, 17);
     background-color: rgb(185, 22, 22);
+}
+h1{
+    font-size: 55px;
 }

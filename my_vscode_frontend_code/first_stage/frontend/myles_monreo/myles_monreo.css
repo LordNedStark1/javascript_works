@@ -1,3 +1,6 @@
+body{
+  background: linear-gradient(135deg, rgb(194, 240, 194), rgb(130, 130, 247), rgb(234, 165, 177), rgb(232, 151, 151), rgb(240, 201, 129));
+}
 button:link {
     color: green;
     background-color: transparent;
