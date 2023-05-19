@@ -21,7 +21,7 @@ class Online{
  static quoting (){
   // Online.fetchOnline()
   // Online.fetchOnline()
-  console.log(onlineList[onlineListCounter])
+  console.log(onlineList)
   const cls = document.getElementsByClassName("cls")
   const text = cls[0].childNodes[0]
   text.textContent = onlineList[onlineListCounter]

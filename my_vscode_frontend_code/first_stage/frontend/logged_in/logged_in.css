@@ -4,7 +4,13 @@
 #profile{
     width: 30px;
     height: 30px;
-    align-items:flex-end;
+    /* align-items:left; */
+    /* padding-bottom: 130px; */
+    margin-left: 100%;
+    /* display: flex;
+    justify-content: left; */
+    align-content: left;
+    border-right: 100px;
 }
 #ent{
     font-size: 20px; 
@@ -32,10 +38,10 @@ body{
     margin: center;
     height: 22px;
 }
-.semicolon_img{
+/* .semicolon_img{
     width: 42px;
     height: 55px;
-}
+} */
 h1 {
     text-align: left ;
     background-color: lightgrey;

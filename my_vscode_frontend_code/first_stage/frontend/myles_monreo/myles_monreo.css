@@ -1,5 +1,11 @@
 body{
-  background: linear-gradient(135deg, rgb(194, 240, 194), rgb(130, 130, 247), rgb(234, 165, 177), rgb(232, 151, 151), rgb(240, 201, 129));
+   background-color: rgba(166, 155, 155, 0.3);
+}
+#myles_img{
+  padding-top: 3%;
+  height: 300px;
+  width: 300px;
+  
 }
 button:link {
     color: green;
@@ -21,3 +27,72 @@ button:link {
     background-color: transparent;
     text-decoration: underline;
   }
+  button{
+   height: 25px; 
+   width: 75px;
+   border-radius: 6px;
+   background-color: rgba(252, 252, 136, 0.4);
+  }
+  .head{
+    background: linear-gradient(135deg, rgb(194, 196, 240), rgb(169, 227, 254), rgb(238, 186, 194))
+    
+  }
+   /* .container {
+    display: flex; */
+  /* }
+  .box1 {
+    width: 500px;
+    height: 540px;
+    border: 1px solid black;
+    margin-right: 10px;
+  } 
+  .box2 {
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin-right: 10px;
+  }  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(0, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+  }
+  
+
+
+  /* .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+  } */
+  

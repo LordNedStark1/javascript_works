@@ -1,26 +1,23 @@
 body{
-    background-image: url(/frontend/img/idea_touch.jpg);
+    background-image:url(/frontend/img/hands_up.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 96vh;
 }
-.first_div{
-    padding-top: 150px;
-    display: grid;
-    place-items: center;
-    padding-bottom: 210px;
-}
+
 input{
     height: 50px;
     width: 440px;
     border-radius: 8px;
+    background-color: rgba(242, 247, 159, 0.4);
 }
 input:hover{
     background-color: rgba(255, 245, 245, 0.6);
 }
 input[type="text"]::placeholder {
     font-size: 16px;
-    transition: font-size 0.2s ease;
+    color: whitesmoke;
+    transition: font-size 0.2s ease ;
 }
 
 input[type="text"]:focus::placeholder {
@@ -44,4 +41,10 @@ h1{
     color:  rgb(248, 132, 60);
     font-size: 40px;
     text-decoration: underline;
+}
+.login_div{
+    padding-top: 150px;
+    display: grid;
+    place-items: center;
+    padding-bottom: 210px;
 }

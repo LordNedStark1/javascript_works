@@ -1,27 +1,32 @@
+body{
+  background-image:url(/frontend/img/hands_up.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96vh;
+}
 .button{
     display: flex;
     justify-content: end;
+    
 
 }
 .first-div{
     background-color: rgba(192, 192, 192, 0.5);
 }
 .second-div{
-    background-color: white ;
+    background-color: rgba(252, 205, 213, 0.4) ;
 }
-#rise{
-    margin-top: 10px;
-    font-size: 100px;
+#evolve{
+  padding-top: 150px;
+  display: grid;
+  place-items: center;
+  margin-top: 10px;
+  font-size: 100px;
+
     color: rgba(25, 128, 11, 0.7);
-}
-#idea_image{
-    width: 100%;
-    background: linear-gradient( url(/frontend/img/idea_touch.jpg));
-    background-position: center;
-    height: 150vh;
-    opacity: 0.8;
-    
-}
+
+  }
+
 button:link {
     color: green;
     background-color: transparent;
@@ -44,9 +49,10 @@ button:link {
   }
 button{
     border-radius: 5px;
-    width: 100px;
-    height: 150; 
+    width: 80px;
+    height: 27px; 
     padding: 5px;
-    color: rgba(27, 27, 229, 0.7);
-    background-color: rgba(36, 132, 200, 0.6);
+    border-radius: 7px;
+    /* color: rgba(138, 229, 27, 0.7); */
+    background-color: rgba(140, 138, 242, 0.6);
 }
